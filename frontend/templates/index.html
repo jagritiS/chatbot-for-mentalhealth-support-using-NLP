@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health AI Assistant</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<div class="chat-container">
+    <h2>🧠 Mental Health AI Assistant</h2>
+
+    <div id="chat-box">
+        <div class="bot-message">
+            <p>Hello 👋 How are you feeling today?</p>
+        </div>
+    </div>
+
+    <div class="input-area">
+        <input id="user-input" placeholder="Type your message..." onkeypress="if(event.key === 'Enter') sendMessage()">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+<span style="color: Red; font-size: 8px;">Disclaimer:This chatbot provides emotional support and information only. It is not a replacement for professional mental healthcare
+</span>
+</div>
+
+<script src="/static/js/script.js"></script>
+</body>
+</html>
