@@ -42,13 +42,8 @@ CORS(app)
 )
 
 def chat():
-
-
     data=request.json
-
-
     user_message=data["message"]
-
     prediction = predict_condition(
         user_message
     )

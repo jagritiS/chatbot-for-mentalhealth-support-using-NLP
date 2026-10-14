@@ -83,9 +83,6 @@ encoder = SentenceTransformer(
 )
 
 
-
-# Create question embeddings
-
 question_embeddings = encoder.encode(
     questions
 )
